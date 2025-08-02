@@ -1,0 +1,19 @@
+{
+  "name": "my-streamlit-component-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel public/index.html --port 3001",
+    "build": "parcel build public/index.html --dist-dir build --public-url ./"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "streamlit-component-lib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "parcel": "^2.9.3",
+    "typescript": "^5.1.3"
+  }
+}
